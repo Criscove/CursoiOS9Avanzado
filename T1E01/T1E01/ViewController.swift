@@ -15,9 +15,16 @@ class ViewController: UIViewController {
         
         // Do any additional setup after loading the view, typically from a nib.
         
+        var numeros:[Int] = [0,0,0,0,0,0,0,0,0,0]
+        
         print("Cristian Contreras")
         
-        print(reciveArraySuma([1,2,3,4]))
+        for index in 1...10{
+            
+            numeros[index-1] = index
+        }
+        
+        print(reciveArraySuma(numeros))
     }
 
     override func didReceiveMemoryWarning() {
