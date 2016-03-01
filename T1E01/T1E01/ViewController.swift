@@ -16,11 +16,25 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         print("Cristian Contreras")
+        
+        print(reciveArraySuma([1,2,3,4]))
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    func reciveArraySuma(numbers:[Int])->Int{
+        
+       var suma = 0
+        
+        for index in numbers{
+            
+            suma = suma + index
+        }
+        
+        return suma
     }
 
 
