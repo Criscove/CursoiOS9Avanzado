@@ -25,7 +25,7 @@ class ModelController: NSObject, UIPageViewControllerDataSource {
     override init() {
         super.init()
         // Crear el modelo de datos
-        pageData = ["uno","dos","tres"]
+        pageData = ["uno","dos","tres","cuatro"]
     }
 
 

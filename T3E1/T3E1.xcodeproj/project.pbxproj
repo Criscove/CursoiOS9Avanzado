@@ -16,6 +16,14 @@
 		245D10B61C978B0D004E14EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 245D10B41C978B0D004E14EB /* LaunchScreen.storyboard */; };
 		245D10C11C978B0D004E14EB /* T3E1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245D10C01C978B0D004E14EB /* T3E1Tests.swift */; };
 		245D10CC1C978B0D004E14EB /* T3E1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245D10CB1C978B0D004E14EB /* T3E1UITests.swift */; };
+		245D10DA1C9C681A004E14EB /* animals_that_amaze.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 245D10D91C9C681A004E14EB /* animals_that_amaze.jpg */; };
+		245D10E21C9C694B004E14EB /* maxresdefault.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 245D10DB1C9C694B004E14EB /* maxresdefault.jpg */; };
+		245D10E31C9C694B004E14EB /* jackals-kenya-cam.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 245D10DC1C9C694B004E14EB /* jackals-kenya-cam.jpg */; };
+		245D10E41C9C694B004E14EB /* prairie-dog-eating.adapt.470.1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 245D10DD1C9C694B004E14EB /* prairie-dog-eating.adapt.470.1.jpg */; };
+		245D10E51C9C694B004E14EB /* imagesfox.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 245D10DE1C9C694B004E14EB /* imagesfox.jpg */; };
+		245D10E61C9C694B004E14EB /* 5p2hfeejns_WCS_Exhibit_Big_Bears_card.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 245D10DF1C9C694B004E14EB /* 5p2hfeejns_WCS_Exhibit_Big_Bears_card.jpg */; };
+		245D10E71C9C694B004E14EB /* imagesdog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 245D10E01C9C694B004E14EB /* imagesdog.jpg */; };
+		245D10E81C9C694B004E14EB /* images.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 245D10E11C9C694B004E14EB /* images.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,14 @@
 		245D10C71C978B0D004E14EB /* T3E1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = T3E1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		245D10CB1C978B0D004E14EB /* T3E1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = T3E1UITests.swift; sourceTree = "<group>"; };
 		245D10CD1C978B0D004E14EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		245D10D91C9C681A004E14EB /* animals_that_amaze.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = animals_that_amaze.jpg; sourceTree = "<group>"; };
+		245D10DB1C9C694B004E14EB /* maxresdefault.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = maxresdefault.jpg; sourceTree = "<group>"; };
+		245D10DC1C9C694B004E14EB /* jackals-kenya-cam.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "jackals-kenya-cam.jpg"; sourceTree = "<group>"; };
+		245D10DD1C9C694B004E14EB /* prairie-dog-eating.adapt.470.1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "prairie-dog-eating.adapt.470.1.jpg"; sourceTree = "<group>"; };
+		245D10DE1C9C694B004E14EB /* imagesfox.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = imagesfox.jpg; sourceTree = "<group>"; };
+		245D10DF1C9C694B004E14EB /* 5p2hfeejns_WCS_Exhibit_Big_Bears_card.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5p2hfeejns_WCS_Exhibit_Big_Bears_card.jpg; sourceTree = "<group>"; };
+		245D10E01C9C694B004E14EB /* imagesdog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = imagesdog.jpg; sourceTree = "<group>"; };
+		245D10E11C9C694B004E14EB /* images.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +117,14 @@
 		245D10A61C978B0D004E14EB /* T3E1 */ = {
 			isa = PBXGroup;
 			children = (
+				245D10DB1C9C694B004E14EB /* maxresdefault.jpg */,
+				245D10DC1C9C694B004E14EB /* jackals-kenya-cam.jpg */,
+				245D10DD1C9C694B004E14EB /* prairie-dog-eating.adapt.470.1.jpg */,
+				245D10DE1C9C694B004E14EB /* imagesfox.jpg */,
+				245D10DF1C9C694B004E14EB /* 5p2hfeejns_WCS_Exhibit_Big_Bears_card.jpg */,
+				245D10E01C9C694B004E14EB /* imagesdog.jpg */,
+				245D10E11C9C694B004E14EB /* images.jpg */,
+				245D10D91C9C681A004E14EB /* animals_that_amaze.jpg */,
 				245D10A71C978B0D004E14EB /* AppDelegate.swift */,
 				245D10A91C978B0D004E14EB /* RootViewController.swift */,
 				245D10AB1C978B0D004E14EB /* DataViewController.swift */,
@@ -240,7 +264,15 @@
 			files = (
 				245D10B61C978B0D004E14EB /* LaunchScreen.storyboard in Resources */,
 				245D10B31C978B0D004E14EB /* Assets.xcassets in Resources */,
+				245D10E41C9C694B004E14EB /* prairie-dog-eating.adapt.470.1.jpg in Resources */,
+				245D10E31C9C694B004E14EB /* jackals-kenya-cam.jpg in Resources */,
+				245D10E71C9C694B004E14EB /* imagesdog.jpg in Resources */,
+				245D10E81C9C694B004E14EB /* images.jpg in Resources */,
+				245D10E21C9C694B004E14EB /* maxresdefault.jpg in Resources */,
 				245D10B11C978B0D004E14EB /* Main.storyboard in Resources */,
+				245D10E61C9C694B004E14EB /* 5p2hfeejns_WCS_Exhibit_Big_Bears_card.jpg in Resources */,
+				245D10DA1C9C681A004E14EB /* animals_that_amaze.jpg in Resources */,
+				245D10E51C9C694B004E14EB /* imagesfox.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -493,6 +525,7 @@
 				245D10D21C978B0D004E14EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		245D10D31C978B0D004E14EB /* Build configuration list for PBXNativeTarget "T3E1Tests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +534,7 @@
 				245D10D51C978B0D004E14EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		245D10D61C978B0D004E14EB /* Build configuration list for PBXNativeTarget "T3E1UITests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +543,7 @@
 				245D10D81C978B0D004E14EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

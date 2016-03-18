@@ -60,7 +60,7 @@ class RootViewController: UIViewController, UIPageViewControllerDelegate {
 
     // MARK: - UIPageViewController delegate methods
 
-    func pageViewController(pageViewController: UIPageViewController, spineLocationForInterfaceOrientation orientation: UIInterfaceOrientation) -> UIPageViewControllerSpineLocation {
+    /*func pageViewController(pageViewController: UIPageViewController, spineLocationForInterfaceOrientation orientation: UIInterfaceOrientation) -> UIPageViewControllerSpineLocation {
         if (orientation == .Portrait) || (orientation == .PortraitUpsideDown) || (UIDevice.currentDevice().userInterfaceIdiom == .Phone) {
             // In portrait orientation or on iPhone: Set the spine position to "min" and the page view controller's view controllers array to contain just one view controller. Setting the spine position to 'UIPageViewControllerSpineLocationMid' in landscape orientation sets the doubleSided property to true, so set it to false here.
             let currentViewController = self.pageViewController!.viewControllers![0]
@@ -69,9 +69,48 @@ class RootViewController: UIViewController, UIPageViewControllerDelegate {
 
             self.pageViewController!.doubleSided = false
             return .Min
+        }*/
+    
+    func pageViewController(pageViewController: UIPageViewController, spineLocationForInterfaceOrientation orientation:UIInterfaceOrientation) -> UIPageViewControllerSpineLocation {
+        
+        if(UIInterfaceOrientationIsLandscape(orientation)){
+        let currentViewController = self.pageViewController!.viewControllers![0] as! DataViewController
+            
+        var viewControllers:[UIViewController] = [currentViewController]
+            
+        let indexOfCurrentViewController = self.modelController.indexOfViewController(currentViewController)
+            
+        if(indexOfCurrentViewController == 0 || indexOfCurrentViewController % 2 == 0 ) {
+                
+        let nextViewController:UIViewController = self.modelController.pageViewController(self.pageViewController!, viewControllerAfterViewController: currentViewController)!
+                
+        viewControllers = [currentViewController,nextViewController]
+    }else{
+                
+        let previousViewController:UIViewController = self.modelController.pageViewController(self.pageViewController!,viewControllerBeforeViewController: currentViewController)!
+                
+        viewControllers = [previousViewController,currentViewController]
+            }
+            
+        self.pageViewController?.setViewControllers(viewControllers, direction: UIPageViewControllerNavigationDirection.Forward, animated: true, completion: nil)
+            
+        return UIPageViewControllerSpineLocation.Mid
+    }
+        else{
+        let currentViewController = self.pageViewController!.viewControllers![0] as UIViewController
+            
+        let viewControllers: [UIViewController] = [currentViewController]
+            
+        self.pageViewController!.setViewControllers(viewControllers, direction: .Forward, animated: true, completion: {done in })
+            
+        self.pageViewController!.doubleSided = false
+            
+        return UIPageViewControllerSpineLocation.Min
+            
         }
+    }
 
-        // In landscape orientation: Set set the spine location to "mid" and the page view controller's view controllers array to contain two view controllers. If the current page is even, set it to contain the current and next view controllers; if it is odd, set the array to contain the previous and current view controllers.
+       /* // In landscape orientation: Set set the spine location to "mid" and the page view controller's view controllers array to contain two view controllers. If the current page is even, set it to contain the current and next view controllers; if it is odd, set the array to contain the previous and current view controllers.
         let currentViewController = self.pageViewController!.viewControllers![0] as! DataViewController
         var viewControllers: [UIViewController]
 
@@ -86,7 +125,7 @@ class RootViewController: UIViewController, UIPageViewControllerDelegate {
         self.pageViewController!.setViewControllers(viewControllers, direction: .Forward, animated: true, completion: {done in })
 
         return .Mid
-    }
+    }*/
 
 
 }
