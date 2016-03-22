@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "T3E3/Videojuego.swift"
+            timestampString = "480027757.91802"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "Videojuego"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "T3E3.Videojuego.__deallocating_deinit"
+                  moduleName = "T3E3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cristo/Documents/Repo/T3E3/T3E3/Videojuego.swift"
+                  timestampString = "480022185.539597"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "19">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "T3E3.Videojuego.init (T3E3.Videojuego.Type)(size : __C.CGSize) -&gt; T3E3.Videojuego"
+                  moduleName = "T3E3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cristo/Documents/Repo/T3E3/T3E3/Videojuego.swift"
+                  timestampString = "480022185.544488"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "39">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "T3E3.Videojuego.init (T3E3.Videojuego.Type)() -&gt; T3E3.Videojuego"
+                  moduleName = "T3E3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cristo/Documents/Repo/T3E3/T3E3/Videojuego.swift"
+                  timestampString = "480022185.544669"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "19">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "T3E3.Videojuego.init (T3E3.Videojuego.Type)(coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;T3E3.Videojuego&gt;"
+                  moduleName = "T3E3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cristo/Documents/Repo/T3E3/T3E3/Videojuego.swift"
+                  timestampString = "480022185.544795"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "27">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
